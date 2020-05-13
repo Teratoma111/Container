@@ -62,3 +62,7 @@
     bool myIterator<type>::operator!=(const myIterator<type>& it) const {
         return !(*this == it);
     }
+    template class ListElem<int>;
+    template class ListElem<std::string>;
+    template class myIterator<int>;
+    template class myIterator<std::string>;

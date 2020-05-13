@@ -1,6 +1,7 @@
 #ifndef LIST_H
 #define LIST_H
 #include "Listel.h"
+#include <string>
 template<typename T>
 class Container
 {

@@ -145,3 +145,5 @@
         }
         return true;
     }
+    template class List<int>;
+    template class List<std::string>;
